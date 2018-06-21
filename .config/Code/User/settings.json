@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "editor.fontFamily": "'Roboto Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 14,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.fontFamily": "Roboto Mono",
+    "explorer.confirmDelete": false,
+    "vim.statusBarColorControl": true,
+}

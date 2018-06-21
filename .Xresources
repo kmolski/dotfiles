@@ -1,0 +1,19 @@
+Xtf.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+URxvt.scrollBar: off
+URxvt.scrollstyle: plain
+URxvt.internalBorder: 0
+URxvt.geometry: 110x35
+
+URxvt.font: xft:Roboto Mono:size=10
+URxvt.letterSpace: 0
+
+URxvt.perl-ext:
+URxvt.perl-ext-common:
+
+#include </home/krzysztof/.Xcolors>
