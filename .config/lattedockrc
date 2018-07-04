@@ -1,0 +1,13 @@
+[Notification Messages]
+really_clear_history=true
+
+[ScreenConnectors]
+10=eDP-1
+
+[UniversalSettings]
+currentLayout=My Setup
+lastNonAssignedLayout=My Setup
+launchers=
+layoutsWindowSize=700,450
+showInfoWindow=true
+version=2
