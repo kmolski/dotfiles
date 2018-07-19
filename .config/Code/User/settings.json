@@ -6,5 +6,10 @@
     "telemetry.enableTelemetry": false,
     "terminal.integrated.fontFamily": "Roboto Mono",
     "explorer.confirmDelete": false,
-    "vim.statusBarColorControl": true,
-}
+    "python.linting.pylintUseMinimalCheckers": false,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "window.menuBarVisibility": "default",
+    "editor.renderWhitespace": "none",
+    "workbench.startupEditor": "newUntitledFile",
+ }
