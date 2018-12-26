@@ -1,13 +1,25 @@
+[$Version]
+update_info=kwin.upd:replace-scalein-with-scale
+
 [Compositing]
+AnimationSpeed=3
+Backend=OpenGL
+Enabled=true
+GLCore=true
+GLPreferBufferSwap=a
+GLTextureFilter=0
+HiddenPreviews=5
 OpenGLIsUnsafe=false
+WindowsBlockCompositing=true
+XRenderSmoothScale=false
 
 [Desktops]
 Number=4
 Rows=1
 
 [Effect-Blur]
-BlurStrength=8
-NoiseStrength=7
+BlurStrength=4
+NoiseStrength=0
 
 [Effect-CoverSwitch]
 TabBox=false
@@ -28,6 +40,11 @@ TouchBorderActivate=9
 [Effect-FlipSwitch]
 TabBox=false
 TabBoxAlternative=false
+
+[Effect-Glide]
+InDistance=50
+InRotationEdge=2
+OutDistance=50
 
 [Effect-PresentWindows]
 BorderActivate=9
@@ -67,11 +84,16 @@ CommandWindowWheel=Scroll
 
 [Plugins]
 blurEnabled=true
-contrastEnabled=true
+contrastEnabled=false
 desktopchangeosdEnabled=false
+desktopgridEnabled=false
+glideEnabled=true
 highlightwindowEnabled=true
+kwin4_effect_fadeEnabled=false
 kwin4_effect_fadedesktopEnabled=true
+kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
+presentwindowsEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
 windowgeometryEnabled=false
@@ -156,5 +178,4 @@ BorderSize=None
 ButtonsOnLeft=
 ButtonsOnRight=IX
 CloseOnDoubleClickOnMenu=false
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Breezemite_dark
+library=org.kde.breeze

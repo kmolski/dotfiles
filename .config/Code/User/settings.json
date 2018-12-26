@@ -1,10 +1,9 @@
 {
-    "workbench.colorTheme": "Visual Studio Light",
-    "editor.fontFamily": "'Roboto Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 14,
+    "workbench.colorTheme": "Default Light+",
+    "editor.fontFamily": "'Hack', 'monospace', 'Droid Sans Fallback'",
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "terminal.integrated.fontFamily": "Roboto Mono",
+    "terminal.integrated.fontFamily": "Hack",
     "explorer.confirmDelete": false,
     "python.linting.pylintUseMinimalCheckers": false,
     "workbench.activityBar.visible": true,
@@ -12,4 +11,54 @@
     "window.menuBarVisibility": "default",
     "editor.renderWhitespace": "none",
     "workbench.startupEditor": "newUntitledFile",
+    "editor.tabCompletion": "on",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "launch": {
+        "configurations": [
+            {
+                "name": "C/C++: Main (Integrated Terminal)",
+                "type": "cppdbg",
+                "request": "launch",
+                "program": "${workspaceFolder}/main",
+                "args": [],
+                "stopAtEntry": false,
+                "cwd": "${workspaceFolder}",
+                "environment": [],
+                "externalConsole": false,
+                "MIMode": "gdb",
+                "miDebuggerPath": "/usr/bin/gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            },
+            {
+                "name": "C/C++: Main (External Terminal)",
+                "type": "cppdbg",
+                "request": "launch",
+                "program": "${workspaceFolder}/main",
+                "args": [],
+                "stopAtEntry": false,
+                "cwd": "${workspaceFolder}",
+                "environment": [],
+                "externalConsole": true,
+                "MIMode": "gdb",
+                "miDebuggerPath": "/usr/bin/gdb",
+                "setupCommands": [
+                    {
+                        "description": "Enable pretty-printing for gdb",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ]
+            }
+        ],
+        "compounds": []
+    },
+    "window.titleBarStyle": "native"
  }

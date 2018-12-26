@@ -4,17 +4,23 @@ really_clear_history=true
 [ScreenConnectors]
 10=eDP-1
 11=HDMI-1
+12=DP-2-1
+13=DP-2-2
+14=eDP1
+15=DP2-1
+16=DP2-2
 
 [UniversalSettings]
 canDisableBorders=true
-currentLayout=My Setup
+currentLayout=Unity-like
 downloadWindowSize=800,550
-lastNonAssignedLayout=My Setup
+lastNonAssignedLayout=Unity-like
 launchers=
 layoutsColumnWidths=34,88,66,100
 layoutsWindowSize=700,521
 memoryUsage=0
-mouseSensitivity=2
+mouseSensitivity=0
 screenTrackerInterval=2500
 showInfoWindow=true
+unifiedGlobalShortcuts=true
 version=2

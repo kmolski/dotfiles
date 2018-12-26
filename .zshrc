@@ -1,4 +1,5 @@
 export ZSH=/home/krzysztof/.oh-my-zsh
+export GOPATH=/home/krzysztof/Programy
 
 ZSH_THEME="daveverwer"
 

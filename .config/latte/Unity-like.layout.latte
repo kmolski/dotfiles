@@ -1,13 +1,16 @@
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.latte.contextmenu
 
+[AppletGlobals][org.kde.plasma.notifications]
+popupPosition=0
+
 [Containments][1]
 activityId=
 dockWindowBehavior=true
 enableKWinEdges=false
 formfactor=3
 immutability=1
-lastScreen=10
+lastScreen=15
 location=5
 onPrimary=true
 plugin=org.kde.latte.containment
@@ -28,14 +31,14 @@ PreloadWeight=0
 [Containments][1][Applets][2][Configuration][General]
 isInLatteDock=true
 launchers=multi;*;2;file:///usr/share/applications/firefox.desktop;file:///usr/share/applications/org.kde.dolphin.desktop
-launchers59=applications:chromium.desktop,file:///usr/share/applications/firefox.desktop,applications:discord.desktop,applications:deluge.desktop,applications:virt-manager.desktop,applications:visual-studio-code.desktop,applications:libreoffice-writer.desktop,applications:libreoffice-calc.desktop,applications:libreoffice-impress.desktop,applications:org.kde.dolphin.desktop,applications:urxvt.desktop,applications:systemsettings.desktop
+launchers59=applications:chromium.desktop,file:///usr/share/applications/firefox.desktop,applications:discord.desktop,applications:deluge.desktop,applications:spotify.desktop,applications:virt-manager.desktop,applications:visual-studio-code.desktop,applications:libreoffice-writer.desktop,applications:libreoffice-calc.desktop,applications:libreoffice-impress.desktop,applications:org.kde.dolphin.desktop,applications:org.kde.konsole.desktop,applications:systemsettings.desktop
 
 [Containments][1][Applets][73]
 immutability=1
 plugin=org.kde.latte.spacer
 
 [Containments][1][Applets][73][Configuration]
-PreloadWeight=34
+PreloadWeight=0
 
 [Containments][1][Applets][73][Configuration][ConfigDialog]
 DialogHeight=480
@@ -48,7 +51,7 @@ usePixels=true
 
 [Containments][1][ConfigDialog]
 DialogHeight=629
-DialogWidth=450
+DialogWidth=542
 
 [Containments][1][Configuration]
 PreloadWeight=0
@@ -78,11 +81,13 @@ zoomLevel=4
 
 [Containments][41]
 activityId=
+dockWindowBehavior=true
 enableKWinEdges=false
 formfactor=2
 immutability=1
-lastScreen=10
+lastScreen=15
 location=3
+onPrimary=true
 plugin=org.kde.latte.containment
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
@@ -121,9 +126,10 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][41][Applets][46][Configuration]
-PreloadWeight=72
+PreloadWeight=100
 
 [Containments][41][Applets][46][Configuration][Appearance]
+dateFormat=longDate
 use24hFormat=2
 
 [Containments][41][Applets][46][Configuration][ConfigDialog]
@@ -149,12 +155,12 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][41][Applets][63][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 SystrayContainmentId=64
 
 [Containments][41][ConfigDialog]
 DialogHeight=629
-DialogWidth=450
+DialogWidth=542
 
 [Containments][41][Configuration]
 PreloadWeight=0
@@ -166,7 +172,6 @@ appletOrder=44;45;63;46;50
 durationTime=x1
 iconSize=20
 panelPosition=10
-panelShadows=false
 panelSize=100
 panelTransparency=50
 shadowOpacity=0
@@ -177,11 +182,11 @@ splitterPosition2=3
 zoomLevel=0
 
 [Containments][64]
-PreloadWeight=34
+PreloadWeight=0
 activityId=
 formfactor=2
 immutability=1
-lastScreen=-1
+lastScreen=15
 location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
@@ -191,57 +196,79 @@ immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][64][Applets][65][Configuration]
-PreloadWeight=34
+PreloadWeight=11
 
 [Containments][64][Applets][66]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][64][Applets][66][Configuration]
-PreloadWeight=34
+PreloadWeight=100
 
 [Containments][64][Applets][67]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][64][Applets][67][Configuration]
-PreloadWeight=39
+PreloadWeight=100
+
+[Containments][64][Applets][67][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
 
 [Containments][64][Applets][68]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][64][Applets][68][Configuration]
-PreloadWeight=34
+PreloadWeight=75
 
 [Containments][64][Applets][69]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][64][Applets][69][Configuration]
-PreloadWeight=84
+PreloadWeight=100
 
 [Containments][64][Applets][70]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][64][Applets][70][Configuration]
-PreloadWeight=34
+PreloadWeight=21
 
 [Containments][64][Applets][72]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][64][Applets][72][Configuration]
-PreloadWeight=34
+PreloadWeight=100
+
+[Containments][64][Applets][72][Configuration][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
 
 [Containments][64][Applets][74]
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][64][Applets][74][Configuration]
+PreloadWeight=100
+
+[Containments][64][Applets][75]
+immutability=1
+plugin=org.kde.plasma.bluetooth
+
+[Containments][64][Applets][75][Configuration]
+PreloadWeight=54
+
+[Containments][64][ConfigDialog]
+DialogHeight=480
+DialogWidth=640
+
 [Containments][64][General]
-extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement
-knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement
+extraItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth
+knownItems=org.kde.plasma.battery,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.bluetooth
 
 [LayoutSettings]
 activities=
