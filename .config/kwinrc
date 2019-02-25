@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
 
 [Compositing]
 AnimationSpeed=3
@@ -14,11 +14,15 @@ WindowsBlockCompositing=true
 XRenderSmoothScale=false
 
 [Desktops]
+Id_1=2b34819a-73b2-4fdf-aa1c-f64f8ea57f55
+Id_2=16913cb0-1c97-499f-bbf1-be178bf5591d
+Id_3=de7e48c2-f7a2-43e8-b726-e23cc3ce574a
+Id_4=3c5d9d69-54fa-493b-98db-fd8ee31821b7
 Number=4
 Rows=1
 
 [Effect-Blur]
-BlurStrength=4
+BlurStrength=5
 NoiseStrength=0
 
 [Effect-CoverSwitch]
@@ -54,6 +58,13 @@ TouchBorderActivate=7
 TouchBorderActivateAll=9
 TouchBorderActivateClass=9
 
+[Effect-kwin4_effect_translucency]
+ComboboxPopups=90
+Dialogs=90
+Inactive=90
+Menus=90
+MoveResize=90
+
 [ElectricBorders]
 Bottom=None
 BottomLeft=None
@@ -85,18 +96,22 @@ CommandWindowWheel=Scroll
 [Plugins]
 blurEnabled=true
 contrastEnabled=false
+cubeslideEnabled=false
 desktopchangeosdEnabled=false
 desktopgridEnabled=false
 glideEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_fadeEnabled=false
 kwin4_effect_fadedesktopEnabled=true
+kwin4_effect_loginEnabled=false
 kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
 presentwindowsEnabled=false
+screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
 windowgeometryEnabled=false
+zoomEnabled=false
 
 [Script-desktopchangeosd]
 PopupHideDelay=1000

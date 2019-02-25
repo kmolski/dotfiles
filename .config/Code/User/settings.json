@@ -60,5 +60,14 @@
         ],
         "compounds": []
     },
-    "window.titleBarStyle": "native"
+    "window.titleBarStyle": "native",
+    "window.zoomLevel": 0,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "eslint.autoFixOnSave": true,
+    "python.jediEnabled": false,
+    "go.gopath": "/home/krzysztof/Programy",
+    "go.formatTool": "gofmt",
+    "go.useLanguageServer": true,
+    "vim.enableNeovim": true,
+    "vim.neovimPath": "/usr/bin/nvim"
  }
