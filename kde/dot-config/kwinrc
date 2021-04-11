@@ -94,22 +94,30 @@ CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
 [Plugins]
+activatelattelaunchermenuEnabled=false
 blurEnabled=true
 contrastEnabled=false
 cubeslideEnabled=false
 desktopchangeosdEnabled=false
 desktopgridEnabled=false
+enforcedecoEnabled=true
+flipswitchEnabled=true
 glideEnabled=true
 highlightwindowEnabled=true
+krohnkiteEnabled=false
+kwin-script-tilingEnabled=false
 kwin4_effect_fadeEnabled=false
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_loginEnabled=false
 kwin4_effect_translucencyEnabled=false
 kwin4_effect_windowapertureEnabled=false
+minimizeallEnabled=false
 presentwindowsEnabled=false
 screenedgeEnabled=false
 slideEnabled=false
 slidingpopupsEnabled=false
+synchronizeskipswitcherEnabled=false
+videowallEnabled=false
 windowgeometryEnabled=false
 zoomEnabled=false
 
@@ -194,3 +202,4 @@ ButtonsOnLeft=
 ButtonsOnRight=IX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.breeze
+theme=

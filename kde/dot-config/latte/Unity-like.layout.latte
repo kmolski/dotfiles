@@ -31,7 +31,7 @@ PreloadWeight=0
 [Containments][1][Applets][2][Configuration][General]
 isInLatteDock=true
 launchers=multi;*;2;file:///usr/share/applications/firefox.desktop;file:///usr/share/applications/org.kde.dolphin.desktop
-launchers59=applications:chromium.desktop,file:///usr/share/applications/firefox.desktop,applications:discord.desktop,applications:deluge.desktop,applications:spotify.desktop,applications:virt-manager.desktop,applications:visual-studio-code.desktop,applications:libreoffice-writer.desktop,applications:libreoffice-calc.desktop,applications:libreoffice-impress.desktop,applications:org.kde.dolphin.desktop,applications:alacritty.desktop,applications:systemsettings.desktop
+launchers59=applications:chromium.desktop,file:///usr/share/applications/firefox.desktop,applications:com.discordapp.Discord.desktop,applications:com.spotify.Client.desktop,applications:virt-manager.desktop,applications:code-oss.desktop,applications:libreoffice-writer.desktop,applications:libreoffice-calc.desktop,applications:libreoffice-impress.desktop,applications:org.kde.dolphin.desktop,applications:alacritty.desktop,applications:systemsettings.desktop
 
 [Containments][1][Applets][73]
 immutability=1
@@ -50,8 +50,8 @@ usePercentage=false
 usePixels=true
 
 [Containments][1][ConfigDialog]
-DialogHeight=629
-DialogWidth=542
+DialogHeight=699
+DialogWidth=602
 
 [Containments][1][Configuration]
 PreloadWeight=0
@@ -104,8 +104,8 @@ plugin=org.kde.plasma.pager
 PreloadWeight=0
 
 [Containments][41][Applets][44][Configuration][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
+DialogHeight=556
+DialogWidth=764
 
 [Containments][41][Applets][44][Configuration][General]
 displayedText=Number
@@ -118,23 +118,8 @@ plugin=org.kde.plasma.appmenu
 PreloadWeight=0
 
 [Containments][41][Applets][45][Configuration][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
-
-[Containments][41][Applets][46]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][41][Applets][46][Configuration]
-PreloadWeight=100
-
-[Containments][41][Applets][46][Configuration][Appearance]
-dateFormat=isoDate
-use24hFormat=2
-
-[Containments][41][Applets][46][Configuration][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
+DialogHeight=535
+DialogWidth=775
 
 [Containments][41][Applets][50]
 immutability=1
@@ -155,12 +140,28 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][41][Applets][63][Configuration]
-PreloadWeight=100
+PreloadWeight=91
 SystrayContainmentId=64
 
+[Containments][41][Applets][77]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][41][Applets][77][Configuration]
+PreloadWeight=31
+
+[Containments][41][Applets][77][Configuration][Appearance]
+customDateFormat=ddd d MMM
+dateFormat=custom
+showDate=true
+
+[Containments][41][Applets][77][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][41][ConfigDialog]
-DialogHeight=629
-DialogWidth=542
+DialogHeight=699
+DialogWidth=602
 
 [Containments][41][Configuration]
 PreloadWeight=0
@@ -168,7 +169,7 @@ PreloadWeight=0
 [Containments][41][General]
 activeIndicator=None
 advanced=true
-appletOrder=44;45;63;46;50
+appletOrder=44;45;63;77;50
 durationTime=x1
 iconSize=20
 panelPosition=10
@@ -196,25 +197,28 @@ immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][64][Applets][65][Configuration]
-PreloadWeight=76
+PreloadWeight=41
 
 [Containments][64][Applets][66]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][64][Applets][66][Configuration]
-PreloadWeight=100
+PreloadWeight=76
 
 [Containments][64][Applets][66][Configuration][ConfigDialog]
-DialogHeight=480
-DialogWidth=640
+DialogHeight=652
+DialogWidth=860
+
+[Containments][64][Applets][66][Configuration][General]
+volumeFeedback=false
 
 [Containments][64][Applets][67]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][64][Applets][67][Configuration]
-PreloadWeight=100
+PreloadWeight=86
 
 [Containments][64][Applets][67][Configuration][ConfigDialog]
 DialogHeight=480
@@ -225,28 +229,28 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][64][Applets][68][Configuration]
-PreloadWeight=76
+PreloadWeight=51
 
 [Containments][64][Applets][69]
 immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][64][Applets][69][Configuration]
-PreloadWeight=100
+PreloadWeight=96
 
 [Containments][64][Applets][70]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][64][Applets][70][Configuration]
-PreloadWeight=76
+PreloadWeight=21
 
 [Containments][64][Applets][72]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][64][Applets][72][Configuration]
-PreloadWeight=84
+PreloadWeight=76
 
 [Containments][64][Applets][72][Configuration][ConfigDialog]
 DialogHeight=480
@@ -255,16 +259,9 @@ DialogWidth=640
 [Containments][64][Applets][72][Configuration][General]
 manageVirtualConnections=true
 
-[Containments][64][Applets][74]
+[Containments][64][Applets][78]
 immutability=1
 plugin=org.kde.plasma.battery
-
-[Containments][64][Applets][74][Configuration]
-PreloadWeight=60
-
-[Containments][64][Applets][75]
-immutability=1
-plugin=org.kde.plasma.bluetooth
 
 [Containments][64][ConfigDialog]
 DialogHeight=480
