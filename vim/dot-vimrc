@@ -16,8 +16,9 @@ set shiftwidth=4 " Make indents (<<, >>) use 4 spaces
 set tabstop=4    " Tabs displayed as 4 spaces
 set expandtab    " Insert 4 spaces instead of a tab
 
-" For Markdown, prefer 2 space indents
+" For Markdown and YAML, prefer 2 space indents
 autocmd Filetype markdown setlocal shiftwidth=2 tabstop=2 expandtab
+autocmd Filetype yaml setlocal shiftwidth=2 tabstop=2 expandtab
 
 " Text selection with mouse
 set mouse=a

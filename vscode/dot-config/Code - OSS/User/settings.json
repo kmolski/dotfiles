@@ -35,5 +35,6 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.cursorBlinking": "solid",
   "prettier.printWidth": 100,
-  "prettier.tabWidth": 4
+  "prettier.tabWidth": 4,
+  "haskell.serverExecutablePath": "${HOME}/.ghcup/bin/haskell-language-server-wrapper"
 }
