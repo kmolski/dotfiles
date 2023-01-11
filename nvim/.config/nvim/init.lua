@@ -1,5 +1,5 @@
 -- Include plugins
-require('plugins')
+require("plugins")
 
 -- Line numbers on the side
 vim.opt.number = true
