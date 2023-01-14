@@ -1,8 +1,9 @@
--- Include plugins
-require("plugins")
+-- Include plugin configurations & remaps
+require("plugins", "remap", "treesitter")
 
--- Line numbers on the side
+-- Relative line numbers on the side
 vim.opt.number = true
+vim.opt.relativenumber = true
 
 -- Four space indents for most files
 vim.opt.shiftwidth = 4   -- Indents use 4 spaces
