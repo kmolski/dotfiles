@@ -1,5 +1,8 @@
 -- Include plugin configurations & remaps
-require("plugins", "remap", "treesitter")
+require("plugins")
+require("lsp")
+require("remap")
+require("treesitter")
 
 -- Relative line numbers on the side
 vim.opt.number = true
