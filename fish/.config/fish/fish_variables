@@ -4,7 +4,6 @@ SETUVAR __fish_init_3_x:\x1d
 SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_le:less
 SETUVAR _fish_abbr_nv:nvim
-SETUVAR _fish_abbr_sf:fzf
 SETUVAR fish_color_autosuggestion:brblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:fg
