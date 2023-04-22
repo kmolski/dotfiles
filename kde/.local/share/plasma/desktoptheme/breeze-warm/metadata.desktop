@@ -3,21 +3,6 @@ Name=Breeze Warm
 
 X-KDE-PluginInfo-Author=kmolski
 X-KDE-PluginInfo-Name=breeze-warm
-X-KDE-PluginInfo-Version=5.80.0
+X-KDE-PluginInfo-Version=5.104.0
 X-KDE-PluginInfo-License=LGPL
 X-Plasma-API=5.0
-
-[Wallpaper]
-defaultWallpaperTheme=Next
-defaultFileSuffix=.png
-defaultWidth=1920
-defaultHeight=1080
-
-[ContrastEffect]
-enabled=true
-contrast=0.2
-intensity=0.4
-saturation=1.7
-
-[AdaptiveTransparency]
-enabled=true
