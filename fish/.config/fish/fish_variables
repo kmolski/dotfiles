@@ -34,4 +34,4 @@ SETUVAR fish_pager_color_description:foreground
 SETUVAR fish_pager_color_prefix:foreground\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:yellow
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/krzysztof/\x2elocal/bin
+SETUVAR fish_user_paths:/home/krzysztof/\x2elocal/bin\x1e/home/krzysztof/\x2ecargo/bin
